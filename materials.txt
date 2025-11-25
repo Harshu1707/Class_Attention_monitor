@@ -1,0 +1,25 @@
+Material i used:
+
+
+# create env in current folder
+python -m venv attention_env
+
+# activate
+attention_env\Scripts\activate
+# you should see (attention_env) in the prompt
+
+
+
+2.
+
+
+python -m pip install --upgrade pip
+pip install "numpy<2.0,>=1.24"
+pip install opencv-contrib-python==4.7.0.72
+pip install mediapipe==0.10.14
+
+
+3.
+
+
+python attention_monitor_full.py
